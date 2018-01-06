@@ -1,16 +1,13 @@
-(defproject jamesmacaulay/cljs-promises "0.1.0"
+(defproject com.tiensonqin/cljs-promises "0.0.1"
   :description "A ClojureScript library for working with JavaScript promises"
 
-  :url "https://github.com/jamesmacaulay/cljs-promises"
+  :url "https://github.com/tiensonqin/cljs-promises"
 
   :scm {:name "git"
-        :url "https://github.com/jamesmacaulay/cljs-promises"}
+        :url "https://github.com/tiensonqin/cljs-promises"}
 
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
-
-  :dependencies [[org.clojure/clojurescript "0.0-2156"]
-                 [org.clojure/core.async "0.1.267.0-0d7780-alpha"]]
 
   :plugins [[lein-cljsbuild "1.0.2"]]
 
